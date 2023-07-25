@@ -1,0 +1,66 @@
+table tbody td {
+    font-size: 12px !important;
+ 
+  }
+  table thead th {
+    font-size: 10px !important;
+    font-weight: bold !important;
+    padding-left: unset !important;
+    padding-right: unset !important;
+    color: #697592 !important;
+  }
+.barandCatName {
+    font-weight: 600 !important;
+}
+.heightTD {
+  height: 62px;
+}
+/* .trBackgroundColor {
+  background-color: #f2f2f2 !important;
+  border: 1px solid #edecec;
+} */
+th {
+  background: white !important;
+  
+}
+/* tr:nth-child(odd)
+ {
+  background-color: #f2f2f2 !important;
+  border: 1px solid #edecec;
+} */
+@media (min-width: 767px) {
+  .second-item-right{
+         text-align: end !important;
+  }
+}
+
+.cardCategory {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: 0.25rem;
+}
+.filterbtncolor {
+  color: blue !important;
+}
+.filterbtncolor a {
+  font-size: 12px !important;
+  text-transform: initial !important;
+}
+
+.paginationColor a i{
+  color: #0052FF !important;
+}
+.table-footer-right-toprankedCategory a {
+  color: #0052FF !important;
+  font-weight: bold;
+}
+
+.table .grayheadingCategoryTable th {
+  color: gray !important;
+}
